@@ -25,7 +25,7 @@ int main ()
             std::cin>>x;
         }
 
-        if(!std::cin.fail()) break;
+        if(!std::cin.fail() || x >=1) break;
     }
     int n;
     if(vardas.back() == 's')
